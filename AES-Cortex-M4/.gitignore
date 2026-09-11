@@ -1,0 +1,10 @@
+# Generated build output
+/build/
+/AES/build/
+/Core/Lib/libtmp.a
+/output/
+/AESComunicator/target/
+
+# Local serial captures
+/elem
+/regi

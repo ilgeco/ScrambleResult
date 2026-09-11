@@ -4,6 +4,10 @@ These files are derived side-channel attack results for the paper [*Scrambling C
 
 The paper evaluates a compiler-applied Computation Interleaving countermeasure on AES-128 running on an STM32F4 ARM Cortex-M4, measured with a ChipWhisperer 1200 Pro at 7.37 MHz. The files below cover the non-profiled evaluation in Section 4 and Figure 3: Correlation Power Analysis (CPA) and non-specific t-tests.
 
+The [`AES-Cortex-M4`](AES-Cortex-M4/) directory contains the STM32F207ZG
+firmware and serial communicator used to run the AES workload. See its
+[README](AES-Cortex-M4/README.md) for build, flash, and hardware requirements.
+
 ## Files
 
 | File | Data shape | First column | Other columns |
@@ -15,4 +19,3 @@ The paper evaluates a compiler-applied Computation Interleaving countermeasure o
 | `unprot-500-ttest.csv` | 15,000 data rows | `time` | `tstat`, using 500 traces |
 | `unprot-5k-ttest.csv` | 15,000 data rows | `time` | `tstat`, using 5,000 traces |
 | `protected_ttest.csv` | 70,000 data rows | `time` | `tstat`, using 50,000 traces |
-

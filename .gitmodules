@@ -1,0 +1,3 @@
+[submodule "AES-Cortex-M4/AESComunicator"]
+	path = AES-Cortex-M4/AESComunicator
+	url = https://github.com/ilgeco/AESComunicator.git
